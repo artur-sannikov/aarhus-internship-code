@@ -14,12 +14,17 @@ parser = argparse.ArgumentParser(
 
 # Add arguments
 parser.add_argument("-i", "--input", required=True, help="Input CheckM output tsv file")
-parser.add_argument("--completeness", default=50, help="Completeness threshold")
-parser.add_argument("--contamination", default=10, help="Contamination threshold")
+parser.add_argument(
+    "--completeness", default=50, help="Completeness threshold, inclusive"
+)
+parser.add_argument(
+    "--contamination", default=10, help="Contamination threshold, exclusive"
+)
 parser.add_argument("--output", "-o", help="If required, save bin names to a file")
 
 # Parse arguments
 args = parser.parse_args()
+
 
 def filter_dataset():
     """
@@ -30,8 +35,8 @@ def filter_dataset():
 
     # Filter by contaminaton and completeness
     filtered_df = input_df[
-        (input_df["Completeness"] >= args.completeness)
-        & (input_df["Contamination"] < args.contamination)
+        (input_df["Completeness"] >= float(args.completeness))
+        & (input_df["Contamination"] < float(args.contamination))
     ]
 
     print(
