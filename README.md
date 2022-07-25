@@ -1,4 +1,4 @@
-# Internship Scripts
+# Internship Scripts and Jupyter notebooks
 A collection of scripts and Jupyter notebooks for my internship at Aarhus University. The goal of the project was to study the microbial community and potential interaction partners of [cable bacteria](https://en.wikipedia.org/wiki/Cable_bacteria).
 
 ## Scripts
