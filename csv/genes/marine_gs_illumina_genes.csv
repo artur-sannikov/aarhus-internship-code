@@ -1,0 +1,49 @@
+Bin Id,classification,Completeness,Contamination,AvgDepth,iron_oxidation,iron_reduction,OmcB,OmcS,PioA,OmcZ,OmcC,MtrC
+bin.11,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229_2;g__;s__,89.66,13.79,474.453648648649,1,6,,,,0,,0
+bin.5,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Chromatiales;f__Sedimenticolaceae;g__Sedimenticola;s__Sedimenticola thiotaurini_A_1,74.14,0,194.220722222222,0,4,,,,0,,0
+bin.1,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Chromatiales;f__Sedimenticolaceae;g__Sedimenticola;s__Sedimenticola thiotaurini_A_2,10.34,0,140.51975,0,0,,,,0,,0
+bin.9,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetovibrionaceae;g__Magnetovibrio_1;s__,89.66,0,130.693055555556,5,4,,,,0,,0
+bin.17,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetovibrionaceae;g__Magnetovibrio_2;s__,89.66,0,80.3785671875,4,4,,,,0,,0
+bin.37,d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__Desulfobulbaceae;g__Electrothrix;s__,98.28,0,55.9522201492537,0,4,,,,0,,0
+bin.7,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229;g__SZUA-116;s__,20.69,0,50.7444594202899,1,0,0,0,1,0,0,0
+bin.52,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229;g__SZUA-116;s__,59.33,3.45,36.8072374545455,1,4,,,,0,,0
+bin.55,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Vicingaceae;g__BRH-c54;s__,85.2,0,33.8819445646438,0,4,,,,0,,0
+bin.46,d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__SM1A02;g__UBA1924;s__,15.52,0,28.0765,0,4,,,,0,,0
+bin.16,d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurimonadaceae;g__Sulfurimonas;s__,57.84,0,27.6248033840304,1,5,0,0,3,0,0,0
+bin.39,d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__SM1A02;g__UBA1924;s__,70.69,0,24.8070304347826,0,0,,,,0,,0
+bin.44,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229_1;g__;s__,91.38,57.29,22.1876563722026,4,15,,,,0,,0
+bin.47,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229;g__SZUA-116;s__,12.93,1.72,22.074164556962,0,1,,,,0,,0
+bin.14,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Terasakiellaceae;g__Terasakiella;s__,98.28,0,18.7121306818182,2,3,,,,0,,0
+bin.19,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prolixibacteraceae;g__Draconibacterium;s__,75.1,45.95,16.3461324293785,0,9,,,,0,,0
+bin.20,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prolixibacteraceae;g__Sunxiuqinia;s__,84.33,2.82,15.7200925670498,1,9,0,0,0,0,1,0
+bin.6,d__Bacteria;p__Desulfobacterota_F;c__Desulfuromonadia;o__Desulfuromonadales;f__Geopsychrobacteraceae;g__Malonomonas;s__,86.21,0,14.3007119672131,0,11,1,5,5,0,0,0
+bin.43,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Nitrosomonadaceae;g__Nitrosomonas;s__,85.34,10.5,13.8982153586498,0,4,,,,0,,0
+bin.18,d__Bacteria;p__Sumerlaeota;c__Sumerlaeia;o__UBA8349;f__;g__;s__,97.41,1.88,13.2418592478632,1,4,0,0,1,0,0,0
+bin.26,d__Bacteria;p__Desulfobacterota;c__Desulfobacteria;o__Desulfobacterales;f__Desulfobacteraceae;g__Desulfobacterium_B;s__,74.73,3.45,13.1781135727788,0,6,,,,0,,0
+bin.23,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prolixibacteraceae;g__Mariniphaga;s__,55.72,0,10.8843612797619,0,3,,,,0,,0
+bin.28,d__Bacteria;p__Bacteroidota;c__Rhodothermia;o__Balneolales;f__Balneolaceae;g__Balneola;s__,69.91,4.08,10.4945225603865,0,3,,,,0,,0
+bin.35,d__Bacteria;p__Desulfobacterota;c__Desulfobacteria;o__Desulfobacterales;f__Desulfobacteraceae;g__Desulfobacterium_A;s__,87.93,53.53,10.3582811979464,0,5,,,,0,,0
+bin.25,d__Bacteria;p__Myxococcota;c__Bradymonadia;o__UBA7976;f__UBA1532;g__;s__,77.59,0,9.77830537540805,0,2,,,,0,,0
+bin.30,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229;g__SZUA-229;s__,64.66,13.79,9.2620925659051,0,6,,,,0,,0
+bin.3,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Emcibacteraceae;g__;s__,68.97,1.72,8.9971903163017,0,2,,,,0,,0
+bin.48,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__GCA-2748055;g__;s__,43.18,0,8.72774371148459,0,1,,,,0,,0
+bin.31,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Maritimibacter_A;s__,61.76,0.34,7.93896078378378,0,4,0,0,0,0,1,0
+bin.31,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Maritimibacter_A;s__,61.76,0.34,7.93896078378378,0,4,0,0,0,0,1,0
+bin.53,d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Sedimentisphaerales;f__SM23-30;g__;s__,65.75,4.31,7.79401115299335,0,4,,,,0,,0
+bin.27,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prolixibacteraceae;g__;s__,67.71,70.92,7.4787021553766,0,9,,,,0,,0
+bin.13,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Porticoccaceae;g__Porticoccus;s__Porticoccus sp002367235,58.97,0,7.43090175895765,0,4,,,,0,,0
+bin.21,d__Bacteria;p__Desulfobacterota_F;c__Desulfuromonadia;o__Desulfuromonadales;f__Desulfuromonadaceae;g__Desulfuromonas;s__,74.56,46.87,7.31417253333333,0,5,1,1,2,0,0,0
+bin.56,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Cytophagales;f__Cyclobacteriaceae;g__Roseivirga;s__Roseivirga echinicomitans,54.51,14.4,6.77261176785714,0,2,,,,0,,0
+bin.45,d__Bacteria;p__Verrucomicrobiota;c__Kiritimatiellae;o__Kiritimatiellales;f__Pontiellaceae;g__Pontiella;s__,68.46,2.04,6.76792137096774,0,2,,,,0,,0
+bin.40,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Thiohalobacterales;f__DSM-19610;g__;s__,45.77,0,6.75848929447853,0,3,,,,0,,0
+bin.22,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229;g__;s__,57.93,5.17,6.68099018394649,2,8,,,,0,,0
+bin.54,d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Verruco-01;g__CK1056;s__,37.51,0,6.36184720316623,0,2,0,0,1,0,0,0
+bin.51,d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__JC444;f__Marispirochaetaceae;g__Marispirochaeta;s__,49.76,1.72,6.31461674089069,1,5,,,,0,,0
+bin.36,d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sneathiellales;f__Sneathiellaceae;g__Sneathiella;s__,54.36,9.64,6.2594130125,1,4,,,,0,,0
+bin.24,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Alcanivoracaceae;g__PGZG01;s__,43.1,0,6.13740362369338,0,1,,,,0,,0
+bin.10,d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Sedimentisphaerales;f__SM23-30;g__;s__,12.38,0,6.00833182741117,0,1,1,0,0,0,0,0
+bin.50,d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__GCA-2748055;g__GCA-2748055;s__,42.79,3.45,6.00611819607843,0,1,,,,0,,0
+bin.12,d__Bacteria;p__Hydrogenedentota;c__Hydrogenedentia;o__Hydrogenedentiales;f__;g__;s__,47.12,0.78,5.92434949074074,0,3,,,,0,,0
+bin.38,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__AKS1;f__AKS1;g__Sulfuriflexus;s__,16.38,0,5.8774582967033,0,1,,,,0,,0
+bin.33,d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Sedimentisphaerales;f__SG8-4;g__PLanc-01;s__,49.66,0,5.86640336236934,0,2,,,,0,,0
+bin.41,d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__IMCC2047;g__;s__,28.55,0.69,5.44314017241379,0,1,,,,0,,0
