@@ -1,17 +1,17 @@
-"""Merge classification and quality informatmion."""
+"""Merge classification and quality information."""
 
 import pandas as pd
 
 
 def merge_df(ds_quality, ds_taxonomy):
     """
-    Merge big quality dataset and taxonomical dataset.
+    Merge big quality dataset and taxonomic dataset.
     """
     # Read datasets
     df_quality = pd.read_csv(ds_quality)
     df_taxonomy = pd.read_table(ds_taxonomy)
 
-    # Extract relevant columns from taxonomy table
+    # Extract relevant columns from taxonomic table
     df_taxonomy = df_taxonomy[["user_genome", "classification"]]
 
     # Merge tables
@@ -19,7 +19,7 @@ def merge_df(ds_quality, ds_taxonomy):
         df_quality, left_on="user_genome", right_on="Bin Id"
     ).drop(columns=["user_genome"])
 
-    # Rearrange columns for better readability (first Bin Id, second classification, and last quallity metrics)
+    # Rearrange columns for better readability (first Bin Id, second classification, and last quality metrics)
     df_merged = df_merged[
         [
             "Bin Id",
