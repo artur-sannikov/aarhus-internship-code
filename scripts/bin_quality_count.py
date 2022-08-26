@@ -1,6 +1,6 @@
 """
-This script accepts CheckM output tsv files, contamination, and completeness 
-thresholds, and returns the number of bins above these thresholds.
+This script accepts a CheckM output tsv file, contamination, and completeness 
+thresholds, and returns the number of bins with higher (or equal) completeness and lower contamination..
 """
 
 import argparse
@@ -8,8 +8,9 @@ import pandas as pd
 
 # Create parser
 parser = argparse.ArgumentParser(
-    description="This script accepts CheckM output tsv files, contamination, and completeness \
-        thresholds, and returns the number of bins above these thresholds."
+    description="This script accepts a CheckM output tsv file, contamination, and completeness \
+        thresholds, and returns the number of bins with higher (or equal) completeness and lower contamination.\
+        Default values are 50 for completeness and 10 for contamination."
 )
 
 # Add arguments
@@ -40,7 +41,7 @@ def filter_dataset():
     ]
 
     print(
-        f"The number of bins that above thresholds is {filtered_df.shape[0]} out of {input_df.shape[0]}."
+        f"The number of bins with higher (or equal) completeness and lower contamination is {filtered_df.shape[0]} out of {input_df.shape[0]}."
     )
     print("These bins are")
     print(f"{filtered_df['Bin Id']}")
