@@ -23,7 +23,7 @@ las
 
 ## `csv` files
 1. `blast` directory — `csv` files containing BLAST outputs (for six extracellular electron transfer proteins) in [BLASTn output format 6](https://www.metagenomics.wiki/tools/blast/blastn-output-format-6).
-2. `genes/fegenie` directory — FeGenie output tables containing "geneSummary" tables with information about found iron-related genes for all categories. For more information, refered to the [FeGenie tutorial](https://github.com/Arkadiy-Garber/FeGenie/wiki/Tutorial).
-3.`genes` directory — files `kaloevig_genes.csv`, `loegten_genes.csv`, and `marine_gs_illumina_genes.csv` contain taxonomic information together with quality metrics, abundance and numbers of protein hits.
+2. `genes/fegenie` directory — FeGenie output tables containing "geneSummary" tables with information about found iron-related genes for all categories. For more information, refer to the [FeGenie tutorial](https://github.com/Arkadiy-Garber/FeGenie/wiki/Tutorial).
+3.`genes` directory — files `kaloevig_genes.csv`, `loegten_genes.csv`, and `marine_gs_illumina_genes.csv` contain taxonomic information together with quality metrics, abundance, and numbers of protein hits.
 4. `quality` directory — tables with quality information (i.e., completeness, contamination, N50, etc.) for the Kalø Vig and Løgten samples.
 5. `taxonomy` directory — tables with genomic bins included in the phylogenetic tree as well as their related genomes from the [Genome Taxonomy Database](https://gtdb.ecogenomic.org/), release 07-RS207.
