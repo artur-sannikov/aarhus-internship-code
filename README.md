@@ -1,5 +1,5 @@
-# Internship scripts, Jupyter notebooks, and `csv` files
-A collection of scripts, Jupyter notebooks, and `csv` files for my internship at Aarhus University. The goal of the project was to study the microbial community and potential interaction partners of [cable bacteria](https://en.wikipedia.org/wiki/Cable_bacteria).
+# Internship scripts, Jupyter notebooks,`csv` files, and conda environments
+A collection of scripts, Jupyter notebooks, and `csv` files for my internship at Aarhus University. The goal of the project was to study the microbial community and potential interaction partners of [cable bacteria](https://en.wikipedia.org/wiki/Cable_bacteria). The resulting master's  thesis "Marine sediments: interaction partners of cable bacteria revealed through metagenomics" is availabe at [this link](https://thesis.unipd.it/handle/20.500.12608/34057) or directly as a [PDF](https://thesis.unipd.it/bitstream/20.500.12608/34057/1/Sannikov_Artur.pdf).
 
 ## Scripts
 1. `bin_quality_count.py` — return the number of bins above specified thresholds of completeness and contamination.
@@ -27,3 +27,20 @@ A collection of scripts, Jupyter notebooks, and `csv` files for my internship at
 3. `genes` directory — files `kaloevig_genes.csv`, `loegten_genes.csv`, and `marine_gs_illumina_genes.csv` contain taxonomic information together with quality metrics, abundance, and numbers of protein hits.
 4. `quality` directory — tables with quality information (i.e., completeness, contamination, N50, etc.) for the Kalø Vig and Løgten samples.
 5. `taxonomy` directory — tables with genomic bins included in the phylogenetic tree as well as their related genomes from the [Genome Taxonomy Database](https://gtdb.ecogenomic.org/), release 07-RS207.
+
+## Envs
+
+Folder with environment `yml` files to generate environments used in this project. The environments are split into analysis categories:
+
+1. Binning.
+2. Genes — environments for tools related to genomic analyses.
+3. Mapping.
+4. QC and trimming.
+5. Taxonomy.
+
+To aid the reproducibility, virtually each tool run has its own environment (for example, CheckM runs in environment `binning/checkm.yml`).
+
+To recreate an environment, use `conda` ([url](https://docs.conda.io/en/latest/)) or `mamba` ([url](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)):
+
+`conda env create --name envname --file=environment.yml`
+
