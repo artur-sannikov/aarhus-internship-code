@@ -6,7 +6,7 @@ A collection of scripts, Jupyter notebooks, and `csv` files for my internship at
 2. `extract_fasta.py` — filter sequences from a FASTA file based on a list of input contig ids and generate a filtered output file.
 3. `merge_quality_taxa_tables.py` — merge datasets with taxonomic and quality information.
 4. `remove_duplicate_seq.py` — remove duplicate sequences (having the same id) from a FASTA file.
-las
+
 ## Jupyter notebooks
 1. `big_quality_tables.ipynb` — combine bin ids and quality metrics of the Kalø Vig into two big tables, `kaloevig_quality_table.csv` and `loegten_quality_table.csv`.
 2. `compute_abundance.ipynb` — compute abundances of genomic bins in the Kalø Vig and Løgten samples and add them to tables `kaloevig_taxa_quality_table.csv` and `loegten_taxa_quality_table.csv`.
