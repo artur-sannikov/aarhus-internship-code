@@ -1,5 +1,5 @@
 # Internship scripts, Jupyter notebooks,`csv` files, and conda environments
-A collection of scripts, Jupyter notebooks, and `csv` files for my internship at Aarhus University. The goal of the project was to study the microbial community and potential interaction partners of [cable bacteria](https://en.wikipedia.org/wiki/Cable_bacteria). The resulting master's  thesis "Marine sediments: interaction partners of cable bacteria revealed through metagenomics" is availabe at [this link](https://thesis.unipd.it/handle/20.500.12608/34057) or directly as a [PDF](https://thesis.unipd.it/bitstream/20.500.12608/34057/1/Sannikov_Artur.pdf).
+A collection of scripts, Jupyter notebooks, and `csv` files for my internship at Aarhus University. The goal of the project was to study the microbial community and potential interaction partners of [cable bacteria](https://en.wikipedia.org/wiki/Cable_bacteria). The resulting master's  thesis “Marine sediments: interaction partners of cable bacteria revealed through metagenomics” is availabe at [this link](https://thesis.unipd.it/handle/20.500.12608/34057) or directly as a [PDF](https://thesis.unipd.it/bitstream/20.500.12608/34057/1/Sannikov_Artur.pdf).
 
 ## Scripts
 1. `bin_quality_count.py` — return the number of bins above specified thresholds of completeness and contamination.
